@@ -1,0 +1,57 @@
+$color-one: #ced6e0;
+$color-two: #8c7ae6;
+$color-three: #dcdde1;
+
+body {
+    margin: 2% 20%;
+}
+
+.container {
+    background-color: $color-one;
+    padding: 30px 100px;
+    border: solid 2px $color-two;
+    text-align: justify;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.rules {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.text {
+    font-size: 25px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    border: solid 1px $color-two;
+    padding: 15px;
+    border-radius: 20%;
+    background-color: $color-three;
+}
+
+button:hover {
+    background-color: darken(color-three, 20%);
+}
+
+#buttons {
+    padding: 20px;
+}
+
+#messages {
+    padding: 20px;
+    font-size: 22px;
+    font-style: oblique;
+}

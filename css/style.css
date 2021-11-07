@@ -1,2 +1,33 @@
+body {
+  margin: 5% 20%;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+  background-color: #ced6e0;
+  padding: 30px 100px;
+  border: solid 2px #8c7ae6;
+  text-align: justify;
+}
+
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 65px;
+}
+
+.subtitle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
+  font-style: oblique;
+}
+
+.text {
+  font-size: 22px;
+  font-style: oblique;
+}
+
+button {
+  border: solid 1px #8c7ae6;
+  padding: 15px;
+  border-radius: 20%;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNJLGNBQWM7QUNGbEI7O0FES0E7RUFDSSx5QkFSZTtFQVNmLG1CQUFtQjtFQUNuQix5QkFUZTtFQVVmLG1CQUFtQjtBQ0Z2Qjs7QURLQTtFQUNJLHFEQUFxRDtFQUNyRCxlQUFlO0FDRm5COztBREtBO0VBQ0kscURBQXFEO0VBQ3JELGVBQWU7RUFDZixtQkFBbUI7QUNGdkI7O0FES0E7RUFDSSxlQUFlO0VBQ2YsbUJBQW1CO0FDRnZCOztBREtBO0VBQ0kseUJBOUJlO0VBK0JmLGFBQWE7RUFDYixrQkFBa0I7QUNGdEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
