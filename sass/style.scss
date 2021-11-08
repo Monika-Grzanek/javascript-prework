@@ -44,23 +44,21 @@ button {
 }
 
 button:hover {
-    background-color: darken(color-three, 20%);
+    /*background-color: darken(color-three, 20%);*/
     cursor: pointer;
 } 
 
 
-button {
-    #play-rock {
+button#play-rock {
     font-size: 20px;
-    }
+}
 
-    #play-rock {
-    font-size: 20px;
-    }
+button#play-rock {
+font-size: 20px;
+}
 
-    #play-rock {
-    font-size: 20px;
-    }
+button#play-rock {
+font-size: 20px;
 }
 
 #buttons {
