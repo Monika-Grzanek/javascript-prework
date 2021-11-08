@@ -1,5 +1,5 @@
 body {
-  margin: 5% 20%;
+  margin: 1% 20%;
 }
 
 .container {
@@ -11,23 +11,56 @@ body {
 
 .title {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 65px;
+  font-size: 35px;
 }
 
 .subtitle {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 45px;
+  font-size: 30px;
   font-style: oblique;
 }
 
+.rules {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
 .text {
-  font-size: 22px;
+  font-size: 18px;
   font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
   border: solid 1px #8c7ae6;
   padding: 15px;
   border-radius: 20%;
+  background-color: #dcdde1;
 }
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQTtFQUNJLGNBQWM7QUNGbEI7O0FES0E7RUFDSSx5QkFSZTtFQVNmLG1CQUFtQjtFQUNuQix5QkFUZTtFQVVmLG1CQUFtQjtBQ0Z2Qjs7QURLQTtFQUNJLHFEQUFxRDtFQUNyRCxlQUFlO0FDRm5COztBREtBO0VBQ0kscURBQXFEO0VBQ3JELGVBQWU7RUFDZixtQkFBbUI7QUNGdkI7O0FES0E7RUFDSSxlQUFlO0VBQ2YsbUJBQW1CO0FDRnZCOztBREtBO0VBQ0kseUJBOUJlO0VBK0JmLGFBQWE7RUFDYixrQkFBa0I7QUNGdEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
+
+/*button:hover {
+    background-color: darken(color-three, 20%);
+} */
+button #play-rock {
+  font-size: 20px;
+}
+
+button #play-rock {
+  font-size: 20px;
+}
+
+button #play-rock {
+  font-size: 20px;
+}
+
+#buttons {
+  padding: 20px;
+}
+
+#messages {
+  padding: 20px;
+  font-size: 22px;
+  font-style: oblique;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTtFQUNJLGNBQWM7QUNIbEI7O0FETUE7RUFDSSx5QkFUZTtFQVVmLG1CQUFtQjtFQUNuQix5QkFWZTtFQVdmLG1CQUFtQjtBQ0h2Qjs7QURNQTtFQUNJLHFEQUFxRDtFQUNyRCxlQUFlO0FDSG5COztBRE1BO0VBQ0kscURBQXFEO0VBQ3JELGVBQWU7RUFDZixtQkFBbUI7QUNIdkI7O0FETUE7RUFDSSx5Q0FBeUM7RUFDekMsZUFBZTtFQUNmLDBCQUEwQjtBQ0g5Qjs7QURNQTtFQUNJLGVBQWU7RUFDZixtQkFBbUI7RUFDbkIseUNBQXlDO0FDSDdDOztBRE1BO0VBQ0kseUJBdENlO0VBdUNmLGFBQWE7RUFDYixrQkFBa0I7RUFDbEIseUJBeENpQjtBQ3FDckI7O0FETUE7O0dDRkc7QURPSDtFQUVJLGVBQWU7QUNObkI7O0FESUE7RUFNSSxlQUFlO0FDTm5COztBREFBO0VBVUksZUFBZTtBQ05uQjs7QURVQTtFQUNJLGFBQWE7QUNQakI7O0FEVUE7RUFDSSxhQUFhO0VBQ2IsZUFBZTtFQUNmLG1CQUFtQjtBQ1B2QiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
