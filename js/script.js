@@ -1,11 +1,11 @@
-function playGame(playerInput){
+{function playGame(playerInput){
 
     clearMessages()
     let randomNumber = Math.floor(Math.random() * 3 + 1);
 
     console.log('Wylosowana liczba to: ' + randomNumber);
 
-    let computerMove = getMoveName(randomNumber);
+    const computerMove = getMoveName(randomNumber);
 
     /*if(randomNumber == 1){
     computerMove = 'kamień';
@@ -21,7 +21,7 @@ function playGame(playerInput){
 
     console.log('Gracz wpisał: ' + playerInput);
 
-    let playerMove = getMoveName(playerInput);
+    const playerMove = getMoveName(playerInput);
 
     /*if(playerInput == '1'){
     playerMove = 'kamień';
@@ -51,25 +51,25 @@ function playGame(playerInput){
         printMessage('Zagrałem ' + computerMove + ', a Ty ' + playerMove);
         console.log('moves:', computerMove, playerMove);
         if( computerMove == 'kamień' && playerMove == 'papier'){
-            printMessage('Ty wygrywasz!'); console.log();
+            printMessage('Ty wygrywasz!'); console.log('Ty wygrywasz!');
         } else if (computerMove == 'papier' && playerMove == 'nożyce'){
-            printMessage('Ty wygrywasz!'); console.log();
+            printMessage('Ty wygrywasz!'); console.log('Ty wygrywasz!');
         } else if (computerMove == 'nożyce' && playerMove == 'kamień'){
-            printMessage('Ty wygrywasz!'); console.log();
+            printMessage('Ty wygrywasz!'); console.log('Ty wygrywasz!');
         } else if (computerMove == 'kamień' && playerMove == 'kamień'){
-            printMessage('Remis!'); console.log();
+            printMessage('Remis!'); console.log('Remis!');
         } else if( computerMove == 'papier' && playerMove == 'papier'){
-            printMessage('Remis!'); console.log();
+            printMessage('Remis!'); console.log('Remis!');
         } else if( computerMove == 'nożyce' && playerMove == 'nożyce'){
-            printMessage('Remis!'); console.log();
+            printMessage('Remis!'); console.log('Remis!');
         } else if( computerMove == 'kamień' && playerMove == 'nożyce'){
-            printMessage('Tym razem ja wygrywam'); console.log();
+            printMessage('Tym razem ja wygrywam'); console.log('Tym razem ja wygrywam');
         } else if( computerMove == 'nożyce' && playerMove == 'papier'){
-            printMessage('Tym razem ja wygrywam'); console.log();   
+            printMessage('Tym razem ja wygrywam'); console.log('Tym razem ja wygrywam');   
         } else if( computerMove == 'papier' && playerMove == 'kamień'){
-            printMessage('Tym razem ja wygrywam'); console.log();   
+            printMessage('Tym razem ja wygrywam'); console.log('Tym razem ja wygrywam');   
         } else {
-            printMessage('Nie wpisano prawidłowej wartości. Spróbuj ponownie.'); console.log();
+            printMessage('Nie wpisano prawidłowej wartości. Spróbuj ponownie.'); console.log('Nie wpisano prawidłowej wartości. Spróbuj ponownie.');
         } 
     }
 
@@ -85,3 +85,4 @@ document.getElementById('play-rock').addEventListener('click', function(){
   document.getElementById('play-scissors').addEventListener('click', function(){
     playGame(3);
 });
+}
