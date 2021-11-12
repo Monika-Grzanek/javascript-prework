@@ -7,3 +7,9 @@ function printMessage(msg){
 function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
+
+function printResult(rst){
+	let div = document.createElement('div');
+	div.innerHTML= rst;
+	document.getElementById('result').appendChild(div);
+}
